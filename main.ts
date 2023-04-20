@@ -1,2 +1,8 @@
-console.log("Hello World~!");
-console.log("123");
+import Paino from "./paino";
+
+function test() {
+  const paino = new Paino();
+  paino.onPlay("Do");
+}
+
+test();
