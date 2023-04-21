@@ -1,8 +1,9 @@
-import Paino from "./paino";
+import MusicPlayer from "./musicPlayer";
 
 function test() {
-  const paino = new Paino();
-  paino.onPlay("Do");
+  const musicPlayer = new MusicPlayer();
+  musicPlayer.onPainoPlay("Do");
+  musicPlayer.play();
 }
 
 test();

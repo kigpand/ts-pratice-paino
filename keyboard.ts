@@ -1,13 +1,15 @@
+import { KeyboardType } from "./common/type";
+
 export default class Keyboard {
-  name: string;
+  name: KeyboardType;
   music: string;
 
-  constructor(name: string, music: string) {
+  constructor(name: KeyboardType, music: string) {
     this.name = name;
     this.music = music;
   }
 
   play() {
-    console.log("play");
+    console.log(`${this.name}`);
   }
 }
